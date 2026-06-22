@@ -1,7 +1,6 @@
 import React, { useState, useRef, useEffect, useCallback } from "react";
 
-const ANTHROPIC_API_KEY = "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"; // 
-
+const ANTHROPIC_API_KEY = "sk-ant-SUA_CHAVE_NOVA";
 const SPECIALTIES = [
   { id: "cirurgia", label: "Cirurgia Oral", icon: "🔪", color: "#2d6cdf", bg: "#0d1f3c" },
   { id: "endodontia", label: "Endodontia", icon: "🦷", color: "#2ea043", bg: "#0d1f0d" },
